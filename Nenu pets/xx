@@ -1,0 +1,111 @@
+<div class="OLA">juguetes para tus mascotas</div>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/juguetes.CSS">
+    <title>CALZADO DEPORTIVO</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/juguetes.animales/juego1.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Kong duran hueso largo</p>
+                    <span class="precio">$ 5.990 CPL</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/juguetes.animales/juego2.jpg" alt="">
+                    </div>
+                    <p class="descripcion" id>POWER CHEK </p>
+                    <span class="precio">$ 10.800 CPL</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/juguetes.animales/juego3.jpg" alt="">
+                    </div>
+                    <p class="descripcion"> PLAY-ELITE
+                    </p>
+                    <span class="precio">$ 6.600 CPL</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/juguetes.animales/juego4.jpg" alt="">
+                    </div>
+                    <p class="descripcion">SQUEARY BALLS</p>
+                    <span class="precio">$ 3.800 CPL</span>
+                </div>
+            </div>
+
+
+<div class="espacio"></div>
+
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/juguetes.animales/jueguete5.png" alt="">
+                    </div>
+                    <p class="descripcion">KONG REBORT</p>
+                    <span class="precio"> $ 12.000 CPL</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/juguetes.animales/juego6.jpg" alt="">
+                    </div>
+                    <p class="descripcion">TREATE TUMBLE</p>
+                    <span class="precio">$ 4.000 CPL</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/juguetes.animales/juego8.jpg" alt="">
+                    </div>
+                    <p class="descripcion">MONKEY CAT</p>
+                    <span class="precio">$ 6.500 CPL</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/juguetes.animales/juego10.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Treat tumble</p>
+                    <span class="precio">$ 4.800 CPL</span>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">40</option>
+                            <option value="">42</option>
+                            <option value="">44</option>
+                            <option value="">46</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/js/ok.js"></script>
+    </body>
+
+    ola

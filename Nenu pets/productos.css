@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+    a{
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+    .productos-slider-heading{
+
+        position: relative;
+        right: 400px;
+        padding: 24px;
+        
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .p-slider{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+        width: 95%;
+    }
+
+    .productos-slider-heading{
+      font-size:  28px;  
+      text-transform: uppercase;
+      color: #313131;
+      text-align: center;
+      margin: 0px;
+    }
+
+    .productios-box{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 15px;
+        border: 1px solid rgb(0,0,0,0.1);
+        box-shadow: 0px 0px 6px 0px black;
+        margin: 0px 5px;
+   
+        position: relative;
+    }
+    
+    
+.p-imagen-contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}    
+
+
+.p-imagen a,
+.p-imagen{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+
+.p-imagen a img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+    animation: fade 0.6s;
+}
+
+.p-imagen-back{
+    display: flex;
+}
+
+.p-imagen-contenedor .p-imagen-back{
+    display: block;
+}
+
+.p-imagen-contenedor .p-imagen-front{
+    display: none;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.p-box-text{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.productos-categoria{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productos-categoria span{
+    color: #acacaa;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+}
+
+.productos-titulo{
+    color: #433334;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.productos-titulo:hover{
+    color: #111111;
+    opacity: 0.7;
+    transition: all ease 0.3s;
+}
+
+.precio-buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.precio-buy .p-precio{
+    font-size: 1.3rem ;
+    color: #ff0404;
+    font-weight: 700;
+}
+
+.precio-buy .p-buy-btn{
+    color: #ff0000;
+    margin: 0px 5px;
+    font-weight: 600;
+}
+
+.precio-buy .p-buy-btn:hover{
+    text-decoration: underline;
+}
+
+.p-descuento{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 65px;
+    height: 24px;
+    color: #ffff;
+    background-color: #e63b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    letter-spacing:1px ;
+    z-index: 100;
+    border-radius: 3px;
+}
+
+
+.slider-btns{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 30PX auto 10px auto;
+    padding: 0px 10px;
+}
+
+
+.slider-btns button{
+    position: static !important;
+    transform: translate(0,0);
+    background-color: #f3f3f3ff;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid #cfc;
+
+}
